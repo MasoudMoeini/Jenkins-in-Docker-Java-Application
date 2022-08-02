@@ -75,6 +75,15 @@ docker stop jenkins-blueocean jenkins-docker
 ```
 To Run again Jenkins [Go Back to Here](#Running-Integrated-Jenkins-Docker-Images)
 ### Building Java-MavenPipline on Jenkins container
+On Jenkins Dashboard 
+``` 
+New Item->simple java maven app-> Pipline->Configure
+->Pipline script from SCM->Git
+->Add Https repository link of this repo into Repository URL
+->make sure branch is main
+Credentials : none
+``` 
+
 
 
 

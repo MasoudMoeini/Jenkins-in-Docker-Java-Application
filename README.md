@@ -83,7 +83,10 @@ New Item->simple java maven app-> Pipline->Configure
 ->make sure branch is main
 Credentials : none
 ``` 
-
+To execute Pipline on Jenkins Dashboard
+```
+Dashboard -> Build Now
+```
 
 
 

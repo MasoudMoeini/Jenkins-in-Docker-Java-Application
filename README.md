@@ -1,4 +1,4 @@
-# Building integration of Jenkins-Docker Image in one Docker Image to run Java Maven App
+# Building integration of Jenkins-Docker Image in one Docker Image to run Java Maven
 [Reference 1:Jenkins website--Build a Java app with Maven](https://www.jenkins.io/doc/tutorials/build-a-java-app-with-maven/)<br>
 Set up and buid a docker image for jenkins on macOS <br/>
 Create a bridge network in Docker 
@@ -74,7 +74,7 @@ To Stop Jenkins
 docker stop jenkins-blueocean jenkins-docker
 ```
 To Run again Jenkins [Go Back to Here](#Running-Integrated-Jenkins-Docker-Images)
-### Building Java-MavenPipline on Jenkins container
+### Building Java-Maven Pipline on Jenkins container
 On Jenkins Dashboard 
 ``` 
 New Item->simple java maven app-> Pipline->Configure
@@ -87,6 +87,12 @@ To execute Pipline on Jenkins Dashboard
 ```
 Dashboard -> Build Now
 ```
+You should see something similar on Jenkins Dashboard<br/>
+<img width="703" alt="Screenshot 2022-08-02 at 12 25 50" src="https://user-images.githubusercontent.com/43514418/182353110-3302123d-b11f-4e30-83cf-54a93e9d14cb.png">
+
+On Dashboard Open Blue Ocean on the left to access Jenkins’s Blue Ocean interface.<br/>
+You can easily follow the steps of running pipline on Jenkins’s Blue Ocean interface
+
 
 
 

@@ -26,8 +26,8 @@ docker run \
   ```
   docker build -t myjenkins-blueocean:2.346.2-1 .
   ```
-  Run your own myjenkins-blueocean:2.346.2-1 image as a container in Docker
-  #Real Cool Heading
+  Run your own myjenkins-blueocean:2.346.2-1 image as a container in Docker<br/>
+  #real-cool-heading
   ```
   docker run \
   --name jenkins-blueocean \

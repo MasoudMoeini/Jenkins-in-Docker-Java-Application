@@ -1,5 +1,5 @@
 # Building integration of Jenkins-Docker Image in one Docker Image to run Java Maven App
-[Reference 1:Jenkins website--Build a Java app with Maven](https://www.jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
+[Reference 1:Jenkins website--Build a Java app with Maven](https://www.jenkins.io/doc/tutorials/build-a-java-app-with-maven/)<br>
 Set up and buid a docker image for jenkins on macOS <br/>
 Create a bridge network in Docker 
 ```
@@ -26,8 +26,8 @@ docker run \
   ```
   docker build -t myjenkins-blueocean:2.346.2-1 .
   ```
+  ## Running Integrated Jenkins-Docker Images
   Run your own myjenkins-blueocean:2.346.2-1 image as a container in Docker<br/>
-  #real-cool-heading
   ```
   docker run \
   --name jenkins-blueocean \
@@ -73,9 +73,7 @@ To Stop Jenkins
 ```
 docker stop jenkins-blueocean jenkins-docker
 ```
-To Run again Jenkins [Go Back to Here](#real-cool-heading)
-```
-```
+To Run again Jenkins [Go Back to Here](#Running-Integrated-Jenkins-Docker-Images)
 # Building Java-MavenPipline on Jenkins container
 
 

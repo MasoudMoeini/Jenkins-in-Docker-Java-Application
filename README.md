@@ -92,6 +92,13 @@ You should see something similar on Jenkins Dashboard<br/>
 
 On Dashboard Open Blue Ocean on the left to access Jenkins’s Blue Ocean interface.<br/>
 You can easily follow the steps of running pipline on Jenkins’s Blue Ocean interface
+## Clean up resources
+```
+docker stop jenkins-blueocean jenkins-docker
+```
+```
+docker rm jenkins-blueocean
+```
 
 
 
